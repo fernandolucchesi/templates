@@ -5,7 +5,7 @@
 @layer base {
   section,
   .section {
-    @apply px-4 py-20 md:px-16 lg:px-32 xl:px-64;
+    @apply px-4 py-20 md:px-16 lg:px-20 xl:px-32;
   }
 
   button {
