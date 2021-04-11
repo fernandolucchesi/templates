@@ -265,7 +265,7 @@ export default function TemplateFour() {
                         <img
                           src="img/logoRA-01-01.png"
                           alt="Logo Remote Agro"
-                          className="w-16 h-auto"
+                          className="w-auto h-16"
                         />
                       </div>
                     </th>
