@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/templates/static/css/main.80717a8c.chunk.css",
-    "main.js": "/templates/static/js/main.e008377b.chunk.js",
-    "main.js.map": "/templates/static/js/main.e008377b.chunk.js.map",
-    "runtime-main.js": "/templates/static/js/runtime-main.e669657c.js",
-    "runtime-main.js.map": "/templates/static/js/runtime-main.e669657c.js.map",
-    "static/js/2.ef82ceec.chunk.js": "/templates/static/js/2.ef82ceec.chunk.js",
-    "static/js/2.ef82ceec.chunk.js.map": "/templates/static/js/2.ef82ceec.chunk.js.map",
-    "static/js/3.745280a2.chunk.js": "/templates/static/js/3.745280a2.chunk.js",
-    "static/js/3.745280a2.chunk.js.map": "/templates/static/js/3.745280a2.chunk.js.map",
-    "index.html": "/templates/index.html",
-    "static/css/main.80717a8c.chunk.css.map": "/templates/static/css/main.80717a8c.chunk.css.map",
-    "static/js/2.ef82ceec.chunk.js.LICENSE.txt": "/templates/static/js/2.ef82ceec.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/templates/static/media/header-img.8d87e1d2.jpg"
+    "main.css": "/remote-agro/static/css/main.c5288e49.chunk.css",
+    "main.js": "/remote-agro/static/js/main.085aa35a.chunk.js",
+    "main.js.map": "/remote-agro/static/js/main.085aa35a.chunk.js.map",
+    "runtime-main.js": "/remote-agro/static/js/runtime-main.56245249.js",
+    "runtime-main.js.map": "/remote-agro/static/js/runtime-main.56245249.js.map",
+    "static/js/2.d4420899.chunk.js": "/remote-agro/static/js/2.d4420899.chunk.js",
+    "static/js/2.d4420899.chunk.js.map": "/remote-agro/static/js/2.d4420899.chunk.js.map",
+    "static/js/3.745280a2.chunk.js": "/remote-agro/static/js/3.745280a2.chunk.js",
+    "static/js/3.745280a2.chunk.js.map": "/remote-agro/static/js/3.745280a2.chunk.js.map",
+    "index.html": "/remote-agro/index.html",
+    "static/css/main.c5288e49.chunk.css.map": "/remote-agro/static/css/main.c5288e49.chunk.css.map",
+    "static/js/2.d4420899.chunk.js.LICENSE.txt": "/remote-agro/static/js/2.d4420899.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/remote-agro/static/media/header-img.8d87e1d2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e669657c.js",
-    "static/js/2.ef82ceec.chunk.js",
-    "static/css/main.80717a8c.chunk.css",
-    "static/js/main.e008377b.chunk.js"
+    "static/js/runtime-main.56245249.js",
+    "static/js/2.d4420899.chunk.js",
+    "static/css/main.c5288e49.chunk.css",
+    "static/js/main.085aa35a.chunk.js"
   ]
 }
