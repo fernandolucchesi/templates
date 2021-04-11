@@ -8,7 +8,11 @@ export default function TemplateFour() {
         <header className="py-2 text-gray-600 body-font">
           <div className="container flex flex-wrap items-center w-full px-6 py-2 mx-auto bg-white lg:h-16 lg:py-0">
             <div className="flex items-center flex-1 h-full -mx-6">
-              <img type="Image" src="img/logo.webp" alt="" className="h-12" />
+              <img
+                src="img/logoRA-01-01.png"
+                alt="Remote Agro logo"
+                className="h-12"
+              />
               <span className="ml-3 text-xl font-bold text-black">
                 Remote Agro
               </span>
@@ -87,9 +91,9 @@ export default function TemplateFour() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
                 className="w-4 h-4 ml-1"
               >
@@ -100,7 +104,7 @@ export default function TemplateFour() {
         </header>
       </div>
 
-      <section className="relative px-2 py-20 text-gray-600 bg-center bg-cover body-font md:py-32 lg:py-48 bg-hero">
+      <section className="relative px-2 py-20 text-gray-600 bg-center bg-cover body-font md:py-32 lg:py-60 bg-hero">
         <div className="flex flex-row items-center justify-center">
           <div className="flex flex-col items-center w-full text-center text-white lg:w-3/4">
             <h1 className="text-4xl font-black uppercase md:leading-tight md:text-6xl">
@@ -181,7 +185,7 @@ export default function TemplateFour() {
               src="https://www.youtube.com/embed/7QSrLm9Mbo4"
               title="RemoteAgro"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen="allowfullscreen"
+              allowFullScreen="allowfullscreen"
             ></iframe>
           </div>
           <div className="flex flex-col w-full lg:w-1/2 lg:mb-0">
@@ -252,7 +256,11 @@ export default function TemplateFour() {
                     </th>
                     <th className="w-20 py-3 font-medium tracking-wider text-center rounded-tr md:px-2 title-font bg-remoteagro-300 text-medium">
                       <div className="flex justify-center ">
-                        <img src="img/logo.webp" className="w-16 h-auto" />
+                        <img
+                          src="img/logoRA-01-01"
+                          alt="Logo Remote Agro"
+                          className="w-16 h-auto"
+                        />
                       </div>
                     </th>
                   </tr>
@@ -981,8 +989,8 @@ export default function TemplateFour() {
               className="absolute inset-0"
               frameborder="0"
               title="map"
-              marginheight="0"
-              marginwidth="0"
+              marginHeight="0"
+              marginWidth="0"
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15358.241051419518!2d-47.8666903!3d-15.7743851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x807b50c3ed067d68!2sCentro%20de%20Apoio%20ao%20Desenvolvimento%20Tecnol%C3%B3gico%20-%20CDT%2FUnB!5e0!3m2!1spt-BR!2sno!4v1617889446548!5m2!1spt-BR!2sno"
               allowfullscreen=""
@@ -1022,7 +1030,10 @@ export default function TemplateFour() {
 
       <footer className="text-gray-400 bg-gray-900 body-font">
         <div className="container flex flex-col items-center gap-4 px-5 py-8 mx-auto sm:flex-row">
-          <a className="flex items-center justify-center font-medium text-gray-300 title-font md:justify-start">
+          <a
+            className="flex items-center justify-center font-medium text-gray-300 title-font md:justify-start"
+            href="/"
+          >
             <span className="ml-3 text-xl">Remote Agro</span>
           </a>
           <p className="py-1 text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200">
