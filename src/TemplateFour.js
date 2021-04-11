@@ -750,7 +750,17 @@ export default function TemplateFour() {
               <span className="text-white bg-remoteagro-600">REMOTE AGRO</span>
             </h1>
 
-            <Carousel autoplay={7000} loop>
+            <Carousel
+              gap={0}
+              mobileBreakpoint={640}
+              responsiveLayout={[
+                {
+                  breakpoint: 640,
+                  gap: '10%',
+                },
+              ]}
+              loop
+            >
               <Carousel.Item>
                 <div className="w-full mx-auto mt-8 text-center xl:w-1/2 lg:w-3/4">
                   <div className="flex flex-row">
