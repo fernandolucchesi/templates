@@ -135,10 +135,10 @@ export default function TemplateFour() {
               Parceiros e apoiadores
             </h1>
           </div>
-          <div className="flex items-center flex-shrink-0 gap-8 p-4 mx-auto space-x-4 overflow-auto lg:ml-auto lg:mr-0">
-            <img alt="" src="img/partner-1.png" className="h-20" />
-            <img alt="" src="img/partner-2.png" className="h-20" />
-            <img alt="" src="img/partner-3.png" className="h-20" />
+          <div className="flex flex-col flex-shrink-0 gap-8 overflow-auto md:p-4 md:space-x-4 md:mx-auto md:items-center md:flex-row lg:ml-auto lg:mr-0">
+            <img alt="" src="img/partner-1.png" className="w-auto h-20" />
+            <img alt="" src="img/partner-2.png" className="w-auto h-20" />
+            <img alt="" src="img/partner-3.png" className="w-auto h-20" />
           </div>
         </div>
       </section>
@@ -196,7 +196,6 @@ export default function TemplateFour() {
               </span>{' '}
               pensada para o seu agronegócio{' '}
             </h1>
-
             <div className="flex items-center justify-center w-full my-8 lg:hidden lg:pr-16 lg:w-1/2 lg:mb-0">
               <iframe
                 width="560"
@@ -219,6 +218,7 @@ export default function TemplateFour() {
               <li>Registra dados até mesmo sem conexāo com a internet</li>
               <li>Se livra do caderno de anotações</li>
             </ul>
+            z
           </div>
         </div>
       </section>
@@ -257,7 +257,7 @@ export default function TemplateFour() {
                     <th className="w-20 py-3 font-medium tracking-wider text-center rounded-tr md:px-2 title-font bg-remoteagro-300 text-medium">
                       <div className="flex justify-center ">
                         <img
-                          src="img/logoRA-01-01"
+                          src="/img/logoRA-01-01.png"
                           alt="Logo Remote Agro"
                           className="w-16 h-auto"
                         />
