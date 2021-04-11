@@ -193,7 +193,7 @@ export default function TemplateFour() {
               pensada para o seu agronegócio{' '}
             </h1>
 
-            <div className="flex items-center w-full my-8 -mx-2 lg:hidden lg:pr-16 lg:w-1/2 lg:mb-0">
+            <div className="flex items-center justify-center w-full my-8 lg:hidden lg:pr-16 lg:w-1/2 lg:mb-0">
               <iframe
                 width="560"
                 height="315"
