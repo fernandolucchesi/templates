@@ -257,7 +257,7 @@ export default function TemplateFour() {
                     <th className="w-20 py-3 font-medium tracking-wider text-center rounded-tr md:px-2 title-font bg-remoteagro-300 text-medium">
                       <div className="flex justify-center ">
                         <img
-                          src="/img/logoRA-01-01.png"
+                          src="img/logoRA-01-01.png"
                           alt="Logo Remote Agro"
                           className="w-16 h-auto"
                         />
