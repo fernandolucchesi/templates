@@ -125,9 +125,9 @@ export default function TemplateFour() {
         </div>
       </section>
 
-      <section className="text-gray-600 bg-gray-100">
-        <div className="container flex flex-col items-center px-4 py-16 mx-auto lg:px-6 lg:flex-row">
-          <div className="flex flex-col w-full pr-0 mb-6 text-left lg:pr-10 lg:mb-0 lg:w-auto">
+      <section className="py-16 text-gray-600 bg-gray-100 ">
+        <div className="container flex flex-col items-center px-4 mx-auto md:flex-row">
+          <div className="flex flex-col w-full mb-4 md:w-1/2 md:mb-0">
             <h2 className="mb-1 tracking-widest md:font-medium text-remoteagro-600 title-font">
               O aplicativo que surgiu para a sua fazenda
             </h2>
@@ -135,10 +135,17 @@ export default function TemplateFour() {
               Parceiros e apoiadores
             </h1>
           </div>
-          <div className="flex flex-col flex-shrink-0 gap-8 overflow-auto md:p-4 md:space-x-4 md:mx-auto md:items-center md:flex-row lg:ml-auto lg:mr-0">
-            <img alt="" src="img/partner-1.png" className="w-auto h-20" />
-            <img alt="" src="img/partner-2.png" className="w-auto h-20" />
-            <img alt="" src="img/partner-3.png" className="w-auto h-20" />
+
+          <div className="flex flex-wrap justify-center w-full md:w-1/2">
+            <div className="flex justify-center w-1/2 p-3 lg:w-1/3">
+              <img alt="" src="img/partner-1.png" className="w-auto h-20" />
+            </div>
+            <div className="flex justify-center w-1/2 p-3 lg:w-1/3">
+              <img alt="" src="img/partner-2.png" className="w-auto h-20" />
+            </div>
+            <div className="flex justify-center w-1/2 p-3 lg:w-1/3">
+              <img alt="" src="img/partner-3.png" className="w-auto h-20" />
+            </div>
           </div>
         </div>
       </section>
