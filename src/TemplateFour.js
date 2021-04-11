@@ -212,13 +212,13 @@ export default function TemplateFour() {
             </div>
             <p className="w-full text-xl leading-relaxed">
               Com o nosso aplicativo você:
-              <ul className="list-disc list-inside">
-                <li>Gerencia sua fazenda de qualquer lugar</li>
-                <li>Otimiza seu tempo, recursos e lucros</li>
-                <li>Registra dados até mesmo sem conexāo com a internet</li>
-                <li>Se livra do caderno de anotações</li>
-              </ul>
             </p>
+            <ul className="list-disc list-inside">
+              <li>Gerencia sua fazenda de qualquer lugar</li>
+              <li>Otimiza seu tempo, recursos e lucros</li>
+              <li>Registra dados até mesmo sem conexāo com a internet</li>
+              <li>Se livra do caderno de anotações</li>
+            </ul>
           </div>
         </div>
       </section>
@@ -987,13 +987,13 @@ export default function TemplateFour() {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameborder="0"
+              frameBorder="0"
               title="map"
               marginHeight="0"
               marginWidth="0"
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15358.241051419518!2d-47.8666903!3d-15.7743851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x807b50c3ed067d68!2sCentro%20de%20Apoio%20ao%20Desenvolvimento%20Tecnol%C3%B3gico%20-%20CDT%2FUnB!5e0!3m2!1spt-BR!2sno!4v1617889446548!5m2!1spt-BR!2sno"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
               style={{ filter: 'grayscale(1) contrast(1.2) opacity(0.3)' }}
             ></iframe>
@@ -1054,9 +1054,9 @@ export default function TemplateFour() {
             >
               <svg
                 fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
@@ -1070,9 +1070,9 @@ export default function TemplateFour() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-5 h-5"
                 viewBox="0 0 24 24"
               >
