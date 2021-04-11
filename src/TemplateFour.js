@@ -100,9 +100,9 @@ export default function TemplateFour() {
         </header>
       </div>
 
-      <section className="relative px-2 py-4 bg-center bg-cover md:p-12 bg-hero">
+      <section className="relative px-2 py-20 text-gray-600 bg-center bg-cover body-font md:py-32 lg:py-48 bg-hero">
         <div className="flex flex-row items-center justify-center">
-          <div className="flex flex-col items-center w-full py-10 my-24 text-center text-white md:py-28 lg:w-3/4">
+          <div className="flex flex-col items-center w-full text-center text-white lg:w-3/4">
             <h1 className="text-4xl font-black uppercase md:leading-tight md:text-6xl">
               Gestão que acelera o seu agronegócio{' '}
             </h1>
