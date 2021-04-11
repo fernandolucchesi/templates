@@ -225,7 +225,6 @@ export default function TemplateFour() {
               <li>Registra dados até mesmo sem conexāo com a internet</li>
               <li>Se livra do caderno de anotações</li>
             </ul>
-            z
           </div>
         </div>
       </section>
