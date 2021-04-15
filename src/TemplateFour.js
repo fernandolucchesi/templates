@@ -85,6 +85,7 @@ export default function TemplateFour() {
             </div>
             <a
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+              rel="noopener noreferrer"
               className="items-center hidden px-3 py-3 ml-4 text-base text-white border-0 rounded md:inline-flex bg-remoteagro-500 hover:bg-remoteagro-600 focus:outline-none"
             >
               Agende uma demonstração gratuita
@@ -117,6 +118,7 @@ export default function TemplateFour() {
             </h2>
             <a
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+              rel="noopener noreferrer"
               className="inline-flex px-6 py-4 text-lg text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
             >
               Agende uma demonstração gratuita{' '}
@@ -536,7 +538,7 @@ export default function TemplateFour() {
                     <th className="w-20 font-medium tracking-wider text-center rounded-tr title-font bg-remoteagro-300 text-medium">
                       <div className="flex justify-center ">
                         <img
-                          src="/img/logoRA-01-01.png"
+                          src="img/logoRA-01-01.png"
                           alt="Logo Remote Agro"
                           className="w-auto h-16"
                         />
@@ -707,6 +709,7 @@ export default function TemplateFour() {
           <div className="mt-20">
             <a
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+              rel="noopener noreferrer"
               className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
             >
               {' '}
@@ -967,6 +970,7 @@ export default function TemplateFour() {
             <div className="flex">
               <a
                 href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+                rel="noopener noreferrer"
                 className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
               >
                 {' '}
@@ -1058,6 +1062,7 @@ export default function TemplateFour() {
             <a
               className="text-gray-400"
               href="https://www.facebook.com/Remote-Science-102384204827570/?view_public_for=102384204827570"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="currentColor"
@@ -1073,6 +1078,7 @@ export default function TemplateFour() {
             <a
               className="ml-3 text-gray-400"
               href="https://www.instagram.com/remoteagro/"
+              rel="noopener noreferrer"
             >
               <svg
                 fill="none"
@@ -1090,6 +1096,7 @@ export default function TemplateFour() {
             <a
               className="ml-3 text-gray-400"
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+              rel="noopener noreferrer"
             >
               <svg
                 aria-hidden="true"
