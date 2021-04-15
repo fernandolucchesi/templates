@@ -1065,6 +1065,7 @@ export default function TemplateFour() {
               rel="noopener noreferrer"
             >
               <svg
+                alt="facebook"
                 fill="currentColor"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -1081,6 +1082,7 @@ export default function TemplateFour() {
               rel="noopener noreferrer"
             >
               <svg
+                alt="instagram"
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
@@ -1099,6 +1101,7 @@ export default function TemplateFour() {
               rel="noopener noreferrer"
             >
               <svg
+                alt="whatsapp"
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
