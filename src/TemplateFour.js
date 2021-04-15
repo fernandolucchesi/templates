@@ -51,17 +51,17 @@ export default function TemplateFour() {
                   <li>
                     <a
                       className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
-                      href="#vantagens"
+                      href="#servicos"
                     >
-                      Vantagens
+                      Serviços
                     </a>
                   </li>
                   <li>
                     <a
                       className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
-                      href="#servicos"
+                      href="#vantagens"
                     >
-                      Serviços
+                      Vantagens
                     </a>
                   </li>
                   <li>
@@ -152,17 +152,17 @@ export default function TemplateFour() {
 
       <section className="py-20 text-gray-600 body-font md:py-32 lg:py-48">
         <div className="container flex flex-col items-center px-4 mx-auto lg:flex-row md:px-6">
-          <div className="flex items-center w-full mb-16 lg:pr-16 lg:w-1/2 lg:mb-0">
-            <h1 className="text-3xl font-black leading-snug uppercase md:text-5xl md:leading-tight">
-              {' '}
-              Não ter{' '}
+          <div className="flex items-center justify-center w-full mb-16 lg:pr-16 lg:w-full lg:mb-0">
+            <h1 className="text-3xl font-black leading-snug uppercase lg:w-3/4 lg:text-center md:text-5xl md:leading-tight">
+              Você já contabilizou quanto tempo é gasto em tarefas repetitivas
+              na{' '}
               <span className="text-white bg-remoteagro-600">
-                rotinas otimizadas
-              </span>{' '}
-              está impactando o seu bolso{' '}
+                gestão de sua propriedade
+              </span>
+              ?
             </h1>
           </div>
-          <div className="w-full rounded-lg lg:p-10 lg:border-4 border-remoteagro-500 lg:w-1/2">
+          {/* <div className="w-full rounded-lg lg:p-10 lg:border-4 border-remoteagro-500 lg:w-1/2">
             <p className="text-xl leading-relaxed">
               {' '}
               Você já contabilizou quanto tempo é gasto em tarefas repetitivas
@@ -177,7 +177,7 @@ export default function TemplateFour() {
               </u>{' '}
               .{' '}
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
       <section
@@ -224,221 +224,8 @@ export default function TemplateFour() {
               <li>Otimiza seu tempo, recursos e lucros</li>
               <li>Registra dados até mesmo sem conexāo com a internet</li>
               <li>Se livra do caderno de anotações</li>
+              <li>E muito mais...</li>
             </ul>
-          </div>
-        </div>
-      </section>
-      <section
-        id="vantagens"
-        className="py-20 bg-gray-900 body-font md:py-32 lg:py-48"
-      >
-        <div className="container flex flex-col items-center px-2 mx-auto text-center md:px-6">
-          <h2 className="mb-1 font-medium tracking-widest text-remoteagro-500 title-font">
-            VANTAGENS
-          </h2>
-          <h1 className="text-3xl font-black leading-snug text-white uppercase md:text-5xl md:leading-tight">
-            Veja o porquê escolher a{' '}
-            <span className="text-white bg-remoteagro-600">Remote Agro</span>
-          </h1>
-
-          <div className="flex justify-center mt-6 mb-12">
-            <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
-          </div>
-          <div className="flex flex-row ">
-            <div className="hidden w-1/3 mr-8 md:block">
-              <img
-                className="object-cover min-h-full rounded bg-table"
-                alt=""
-                src="img/table-bg2.jpeg"
-              />
-            </div>
-            <div className="w-full mx-auto overflow-auto lg:w-2/3">
-              <table className="w-full text-left text-gray-300 whitespace-no-wrap table-auto ">
-                <thead>
-                  <tr>
-                    <th className="px-2 py-3 font-medium tracking-wider title-font text-medium"></th>
-                    <th className="w-20 px-2 mx-1 font-medium tracking-wider text-center bg-gray-700 rounded-tl md:px-4 title-font text-medium">
-                      Outros
-                    </th>
-                    <th className="w-20 py-3 font-medium tracking-wider text-center rounded-tr md:px-2 title-font bg-remoteagro-300 text-medium">
-                      <div className="flex justify-center ">
-                        <img
-                          src="img/logoRA-01-01.png"
-                          alt="Logo Remote Agro"
-                          className="w-auto h-16"
-                        />
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="px-2 py-3">Controle de estoque</td>
-                    <td className="px-2 py-3 bg-gray-700">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-black bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Controle de máquinas
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Gestão de receitas
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Custos de safra/talhões
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Mapas NDVI
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Controle de atividades
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Gestão financeira e de patrimônio completa
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Planejamento agrícola
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center ">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Sistemas diferenciados voltados para cada função
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Realização de pesagens direta pelo sistema e integração
-                      com talhões e contratos
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Envio de recomendações diárias entre equipe técnica e
-                      operacional
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Acompanhamento técnico e personalizado da sua produção por
-                      consultores agrícolas
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Relatórios personalizados de acordo com a sua demanda
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
-                      Monitoramento climático e de solo completo sob encomenda
-                    </td>
-                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white rounded-bl border-opacity-20">
-                      <div className="flex justify-center">❌</div>
-                    </td>
-                    <td className="px-2 py-3 text-center text-black border-t-2 border-white rounded-br border-opacity-20 bg-remoteagro-300">
-                      <div className="flex justify-center">✅</div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div className="mt-20">
-            <a
-              href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
-              className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
-            >
-              {' '}
-              Agende uma demonstração gratuita{' '}
-            </a>
           </div>
         </div>
       </section>
@@ -714,45 +501,220 @@ export default function TemplateFour() {
         </div>
       </section>
 
-      <section className="py-20 text-gray-600 body-font md:py-32 lg:py-48 bg-remoteagro-50">
-        <div className="container flex flex-col items-center px-4 mx-auto lg:flex-row md:px-6">
-          <div className="flex flex-col w-full lg:w-1/2 lg:mb-0 lg:pr-16">
-            <h1 className="text-3xl font-black leading-snug uppercase md:text-5xl md:leading-tight">
-              <span className="text-white bg-remoteagro-600">Impulsione</span>{' '}
-              sua fazenda com o nosso app{' '}
-            </h1>
-            <img
-              alt=""
-              src="img/call-to-action-img.png"
-              className="object-cover object-center mt-6 rounded lg:hidden"
-            />
-            <div className="flex mt-6 mb-6">
-              <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
+      <section
+        id="vantagens"
+        className="py-20 bg-gray-900 body-font md:py-32 lg:py-48"
+      >
+        <div className="container flex flex-col items-center px-2 mx-auto text-center md:px-6">
+          <h2 className="mb-1 font-medium tracking-widest text-remoteagro-500 title-font">
+            VANTAGENS
+          </h2>
+          <h1 className="text-3xl font-black leading-snug text-white uppercase md:text-5xl md:leading-tight">
+            Veja o porquê escolher a{' '}
+            <span className="text-white bg-remoteagro-600">Remote Agro</span>
+          </h1>
+
+          <div className="flex justify-center mt-6 mb-12">
+            <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
+          </div>
+          <div className="flex flex-row ">
+            <div className="hidden w-1/3 mr-8 md:block">
+              <img
+                className="object-cover min-h-full rounded bg-table"
+                alt="Safra"
+                src="img/table-bg2.jpeg"
+              />
             </div>
-            <p className="w-full mb-12 text-xl leading-relaxed">
-              {' '}
-              Pronto para começar a <strong>digitalizar</strong> a sua fazenda?{' '}
-            </p>
-            <div className="flex">
-              <a
-                href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
-                className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
-              >
-                {' '}
-                Agende uma demonstração gratuita{' '}
-              </a>
+            <div className="w-full mx-auto overflow-auto lg:w-2/3">
+              <table className="w-full text-left text-gray-300 whitespace-no-wrap table-auto ">
+                <thead>
+                  <tr>
+                    <th className="px-2 font-medium tracking-wider title-font text-medium"></th>
+                    <th className="w-20 px-1 font-medium tracking-wider text-center bg-gray-700 rounded-tl md:px-4 title-font text-medium">
+                      Outros
+                    </th>
+                    <th className="w-20 font-medium tracking-wider text-center rounded-tr title-font bg-remoteagro-300 text-medium">
+                      <div className="flex justify-center ">
+                        <img
+                          src="/img/logoRA-01-01.png"
+                          alt="Logo Remote Agro"
+                          className="w-auto h-16"
+                        />
+                      </div>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="px-2 py-3">Controle de estoque</td>
+                    <td className="px-2 py-3 bg-gray-700">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-black bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Controle de máquinas
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Gestão de receitas
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Custos de safra/talhões
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Mapas NDVI
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Controle de atividades
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Gestão financeira e de patrimônio completa
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Planejamento agrícola
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center ">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Sistemas diferenciados voltados para cada função
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Realização de pesagens direta pelo sistema e integração
+                      com talhões e contratos
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Envio de recomendações diárias entre equipe técnica e
+                      operacional
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Acompanhamento técnico e personalizado da sua produção por
+                      consultores agrícolas
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Relatórios personalizados de acordo com a sua demanda
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className="px-2 py-3 border-t-2 border-white border-opacity-20">
+                      Monitoramento climático e de solo completo sob encomenda
+                    </td>
+                    <td className="px-2 py-3 text-center bg-gray-700 border-t-2 border-white rounded-bl border-opacity-20">
+                      <div className="flex justify-center">❌</div>
+                    </td>
+                    <td className="px-2 py-3 text-center text-black border-t-2 border-white rounded-br border-opacity-20 bg-remoteagro-300">
+                      <div className="flex justify-center">✅</div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-          <div className="items-center hidden w-full mb-16 lg:flex lg:w-1/2 lg:mb-0">
-            <img
-              alt=""
-              src="img/call-to-action-img.png"
-              className="object-cover object-center rounded"
-            />
+          <div className="mt-20">
+            <a
+              href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+              className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
+            >
+              {' '}
+              Agende uma demonstração gratuita{' '}
+            </a>
           </div>
         </div>
       </section>
-
       <section
         id="clientes"
         className="py-20 text-gray-200 bg-cover body-font md:py-32 lg:py-48 bg-testimonials"
@@ -971,7 +933,7 @@ export default function TemplateFour() {
                     <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
                   </div>{' '}
                   <h2 className="text-sm font-medium tracking-wider text-gray-200 uppercase title-font">
-                    Mateus
+                    Mateus Sacon
                   </h2>
                   <p className="text-gray-200">
                     Responsável Administrativo, Fazenda Reginato
@@ -979,6 +941,45 @@ export default function TemplateFour() {
                 </div>
               </Carousel.Item>
             </Carousel>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 text-gray-600 body-font md:py-32 lg:py-48 bg-remoteagro-50">
+        <div className="container flex flex-col items-center px-4 mx-auto lg:flex-row md:px-6">
+          <div className="flex flex-col w-full lg:w-1/2 lg:mb-0 lg:pr-16">
+            <h1 className="text-3xl font-black leading-snug uppercase md:text-5xl md:leading-tight">
+              <span className="text-white bg-remoteagro-600">Impulsione</span>{' '}
+              sua fazenda com o nosso app{' '}
+            </h1>
+            <img
+              alt=""
+              src="img/call-to-action-img.png"
+              className="object-cover object-center mt-6 rounded lg:hidden"
+            />
+            <div className="flex mt-6 mb-6">
+              <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
+            </div>
+            <p className="w-full mb-12 text-xl leading-relaxed">
+              {' '}
+              Pronto para começar a <strong>digitalizar</strong> a sua fazenda?{' '}
+            </p>
+            <div className="flex">
+              <a
+                href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
+                className="inline-flex px-6 py-4 text-lg text-center text-white border-0 rounded bg-remoteagro-500 focus:outline-none hover:bg-remoteagro-600"
+              >
+                {' '}
+                Agende uma demonstração gratuita{' '}
+              </a>
+            </div>
+          </div>
+          <div className="items-center hidden w-full mb-16 lg:flex lg:w-1/2 lg:mb-0">
+            <img
+              alt=""
+              src="img/call-to-action-img.png"
+              className="object-cover object-center rounded"
+            />
           </div>
         </div>
       </section>
