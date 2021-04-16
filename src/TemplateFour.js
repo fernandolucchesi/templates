@@ -43,6 +43,15 @@ export default function TemplateFour() {
                   <li>
                     <a
                       className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
+                      href="https://blog.remoteagro.com.br"
+                      rel="noopener noreferrer"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="block px-0 py-3 border-b-2 border-transparent lg:p-4 lg:py-5 hover:text-black"
                       href="#sobre"
                     >
                       Sobre
