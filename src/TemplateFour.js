@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-grid-carousel';
 
 export default function TemplateFour() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
+
   return (
     <div id="wrapper">
       <div>
@@ -198,15 +204,17 @@ export default function TemplateFour() {
       >
         <div className="container flex flex-col items-center px-4 mx-auto lg:flex-row md:px-6">
           <div className="items-center hidden w-full mb-16 lg:flex lg:pr-16 lg:w-1/2 lg:mb-0">
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
-              title="RemoteAgro"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen="allowfullscreen"
-              loading="lazy"
-            ></iframe>
+            {loaded && (
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
+                title="RemoteAgro"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="allowfullscreen"
+                loading="lazy"
+              ></iframe>
+            )}
           </div>
           <div className="flex flex-col w-full lg:w-1/2 lg:mb-0">
             <h1 className="text-3xl font-black leading-snug uppercase md:text-5xl md:leading-tight">
@@ -217,15 +225,17 @@ export default function TemplateFour() {
               pensada para o seu agronegócio{' '}
             </h1>
             <div className="flex items-center justify-center w-full my-8 lg:hidden lg:pr-16 lg:w-1/2 lg:mb-0">
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
-                title="RemoteAgro"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen="allowfullscreen"
-                loading="lazy"
-              ></iframe>
+              {loaded && (
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
+                  title="RemoteAgro"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen="allowfullscreen"
+                  loading="lazy"
+                ></iframe>
+              )}
             </div>
             <div className="flex mt-6 mb-12">
               <div className="inline-flex w-16 h-1 rounded-full bg-remoteagro-500"></div>
