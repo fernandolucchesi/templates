@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Carousel from 'react-grid-carousel';
+import loadable from '@loadable/component';
 
 export default function TemplateFour() {
-  const YoutubeIframe = React.lazy(() => import('./Iframe'));
+  const YoutubeIframe = loadable(() => import('./Iframe'));
 
   return (
     <div id="wrapper">
