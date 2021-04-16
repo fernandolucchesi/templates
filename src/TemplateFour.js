@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-grid-carousel';
 import loadable from '@loadable/component';
 
 export default function TemplateFour() {
+  const [loaded, setLoaded] = useState(false);
   const YoutubeIframe = loadable(() => import('./Iframe'));
-
+  useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <div id="wrapper">
       <div>
@@ -202,7 +205,7 @@ export default function TemplateFour() {
         <div className="container flex flex-col items-center px-4 mx-auto lg:flex-row md:px-6">
           <div className="items-center hidden w-full mb-16 lg:flex lg:pr-16 lg:w-1/2 lg:mb-0">
             <React.Suspense fallback={<p>Loading...</p>}>
-              <YoutubeIframe />
+              {loaded && <YoutubeIframe />}
             </React.Suspense>
           </div>
           <div className="flex flex-col w-full lg:w-1/2 lg:mb-0">
@@ -215,7 +218,7 @@ export default function TemplateFour() {
             </h1>
             <div className="flex items-center justify-center w-full my-8 lg:hidden lg:pr-16 lg:w-1/2 lg:mb-0">
               <React.Suspense fallback={<p>Loading...</p>}>
-                <YoutubeIframe />
+                {loaded && <YoutubeIframe />}
               </React.Suspense>
             </div>
             <div className="flex mt-6 mb-12">
