@@ -525,7 +525,6 @@ export default function TemplateFour() {
           <div className="flex flex-row ">
             <div className="hidden w-1/3 mr-8 md:block">
               <img
-                loading="lazy"
                 className="object-cover min-h-full rounded bg-table"
                 alt="Safra"
                 src="img/table-bg2.jpeg"
