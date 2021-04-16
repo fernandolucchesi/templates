@@ -9,6 +9,7 @@ export default function TemplateFour() {
           <div className="container flex flex-wrap items-center w-full px-6 py-2 mx-auto bg-white lg:h-16 lg:py-0">
             <div className="flex items-center flex-1 h-full -mx-6">
               <img
+                loading="lazy"
                 src="img/logoRA-01-01.png"
                 alt="Remote Agro logo"
                 className="h-12"
@@ -122,8 +123,8 @@ export default function TemplateFour() {
             </h1>
             <h2 className="py-2 my-8 text-lg text-gray-100 md:text-2xl lg:w-3/4">
               Evolua seu agronegócio com quem é especialista nisso. Oferecemos
-              uma visão centralizada utilizado automação no agronegócio. Conheça
-              mais sobre nosso trabalho.{' '}
+              uma visão centralizada utilizando automação no agronegócio.
+              Conheça mais sobre nosso trabalho.{' '}
             </h2>
             <a
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
@@ -169,8 +170,8 @@ export default function TemplateFour() {
               na{' '}
               <span className="text-white bg-remoteagro-600">
                 gestão de sua propriedade
-              </span>
-              ?
+              </span>{' '}
+              rural
             </h1>
           </div>
           {/* <div className="w-full rounded-lg lg:p-10 lg:border-4 border-remoteagro-500 lg:w-1/2">
@@ -200,10 +201,11 @@ export default function TemplateFour() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/7QSrLm9Mbo4"
+              src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
               title="RemoteAgro"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen="allowfullscreen"
+              loading="lazy"
             ></iframe>
           </div>
           <div className="flex flex-col w-full lg:w-1/2 lg:mb-0">
@@ -218,10 +220,11 @@ export default function TemplateFour() {
               <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/7QSrLm9Mbo4"
+                src="https://www.youtube.com/embed/7QSrLm9Mbo4?rel=0&showinfo=0&autohide=1"
                 title="RemoteAgro"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen="allowfullscreen"
+                allowFullScreen="allowfullscreen"
+                loading="lazy"
               ></iframe>
             </div>
             <div className="flex mt-6 mb-12">
@@ -531,6 +534,7 @@ export default function TemplateFour() {
           <div className="flex flex-row ">
             <div className="hidden w-1/3 mr-8 md:block">
               <img
+                loading="lazy"
                 className="object-cover min-h-full rounded bg-table"
                 alt="Safra"
                 src="img/table-bg2.jpeg"
@@ -547,6 +551,7 @@ export default function TemplateFour() {
                     <th className="w-20 font-medium tracking-wider text-center rounded-tr title-font bg-remoteagro-300 text-medium">
                       <div className="flex justify-center ">
                         <img
+                          loading="lazy"
                           src="img/logoRA-01-01.png"
                           alt="Logo Remote Agro"
                           className="w-auto h-16"
