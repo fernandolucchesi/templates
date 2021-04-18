@@ -175,9 +175,9 @@ export default function TemplateFour() {
               Você já contabilizou quanto tempo é gasto em tarefas repetitivas
               na{' '}
               <span className="text-white bg-remoteagro-600">
-                gestão de sua propriedade
-              </span>{' '}
-              rural
+                gestão de sua propriedade rural
+              </span>
+              ?
             </h1>
           </div>
           {/* <div className="w-full rounded-lg lg:p-10 lg:border-4 border-remoteagro-500 lg:w-1/2">
