@@ -102,7 +102,7 @@ export default function TemplateFour() {
             <a
               href="https://api.whatsapp.com/send?phone=5561998568439&text=Ol%C3%A1!%20Gostaria%20de%20conhecer%20mais%20sobre%20os%20servi%C3%A7os%20da%20Remote%20Agro"
               rel="noopener noreferrer"
-              className="items-center hidden px-3 py-3 ml-4 text-base text-white border-0 rounded md:inline-flex bg-remoteagro-500 hover:bg-remoteagro-600 focus:outline-none"
+              className="items-center hidden px-3 py-3 ml-4 text-base text-white border-0 rounded lg:inline-flex bg-remoteagro-500 hover:bg-remoteagro-600 focus:outline-none"
             >
               Agende uma demonstração gratuita
               <svg
